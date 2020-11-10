@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="DivContenedor"><p>Texto inicial</p></div> 
+    <p>Clic para tomar texto inicial </p> 
+    <button onclick="AccionInnerHTML()">Try it</button> 
+    <p id="TextoResultante"></p> 
+ <script> 
+
+function AccionInnerHTMLn() 
+{ 
+    var ConseguirDatoInicial = document.getElementById("DivContenedor").innerHTML;//Leer valor 
+    document.getElementById("TextoResultante").innerHTML = "El texto inicial es: " + ConseguirDatoInicial;//Asignar valor 
+} 
+</script>
+</body>
+</html>
