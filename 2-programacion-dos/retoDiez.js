@@ -6,12 +6,12 @@ console.log(parrafo.innerHTML = parrafo.innerHTML)
 
 const operaci = document.querySelector('.calculo')
 
-const edad = 36 - parseInt(operaci,10);
+const edad = parseInt(36) 
 
-const año = 365 - parseInt(operaci,10);
+const año = parseInt(365)
 
-const dia = 24 - parseInt(operaci,10);
+const dia = parseInt(24)
 
-var total = (dia*año*edad);
+var total = parseInt(dia*año*edad)
 
-console.log(operaci.innerHTML = `<h3>El total de horas vividas es: </h3> `)
+console.log(operaci.innerHTML = `<h3>El total de horas vividas es: ${total}</h3>`)
